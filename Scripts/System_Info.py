@@ -29,13 +29,13 @@ def get_sys_info();
     return info
     #Pulling Regular System Information
 
-    def save_info_to_file(info):
+def save_info_to_file(info):
         filename = f"system_info_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
         with open(filename, 'w') as f:
             for key, value in info.items():
                 f.write(f"{key}: {value}\n")
         print(f"System information saved to {filename}")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         system_info = get_sys_info()
         save_info_to_file(system_info)
