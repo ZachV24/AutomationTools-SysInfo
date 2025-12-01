@@ -41,6 +41,9 @@ def save_info_to_file(info):
 if __name__ == "__main__":
         system_info = get_sys_info()
         save_info_to_file(system_info)
+<<<<<<< HEAD
 
     
    
+=======
+>>>>>>> 310333847ec96427e659aab9e7dce59423144b13
