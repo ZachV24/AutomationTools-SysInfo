@@ -1,0 +1,6 @@
+{
+    "Sampling_interval_Seconds": 10,
+    "cpu_Usage_Threshold_Percent": 85,
+    "ram_Usage_Threshold_Percent": 90,
+    "required_Processes": [ "explorer.exe", "winlogon.exe", "svchost.exe" ]
+}
